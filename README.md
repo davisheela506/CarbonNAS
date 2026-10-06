@@ -158,22 +158,22 @@ Instead, the system should produce a collection of models with different charact
 
 For example:
 
-Architecture A
+Architecture A —
 2 layers
 32 channels
 3×3 kernels
 
-Architecture B
+Architecture B —
 3 layers
 64 channels
 3×3 kernels
 
-Architecture C
+Architecture C —
 4 layers
 32 channels
 5×5 kernels
 
-Architecture D
+Architecture D —
 3 layers
 128 channels
 depthwise convolutions
