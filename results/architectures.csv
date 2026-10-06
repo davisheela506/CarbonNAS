@@ -1,2 +1,3 @@
 model,accuracy_percent,parameters,model_size_mb,flops,latency_ms,device
-TinyCNN,72.53,545098,2.0794,6128896,0.3513,cpu
+TinyCNN,72.53,545098,2.0794,6128896,0.7655,cpu
+SmallCNN,74.42,1143242,4.3611,39683328,2.0561,cpu
