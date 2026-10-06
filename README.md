@@ -158,22 +158,26 @@ Instead, the system should produce a collection of models with different charact
 
 For example:
 
-```text
-Model A
-High accuracy
-High energy
-High latency
+Architecture A —
+2 layers,
+32 channels,
+3×3 kernels
 
-Model B
-Good accuracy
-Medium energy
-Medium latency
+Architecture B —
+3 layers,
+64 channels,
+3×3 kernels
 
-Model C
-Lower accuracy
-Low energy
-Low latency
-```
+Architecture C —
+4 layers,
+32 channels,
+5×5 kernels
+
+Architecture D —
+3 layers,
+128 channels,
+depthwise convolutions
+...
 
 This creates a small model library that can be used by a runtime selection mechanism.
 
