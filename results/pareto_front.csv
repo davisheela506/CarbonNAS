@@ -1,0 +1,4 @@
+candidate,channels,kernel_size,use_pooling,accuracy_percent,parameters,flops,model_size_mb,latency_ms,device
+7,"(16, 32, 64)",3,True,46.54,156074,2934016,0.5954,1.3149,cpu
+5,"(16, 32, 64)",5,True,47.92,197802,7914752,0.7546,1.2347,cpu
+4,"(32, 64)",5,True,50.52,579402,16090368,2.2102,1.0489,cpu
