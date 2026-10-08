@@ -6,6 +6,9 @@ The goal is to build a small but reproducible research prototype that can automa
 
 This project is being developed as a practical introduction to **Carbon-Aware Neural Architecture Search**, with a focus on resource-efficient AI for edge computing.
 
+## Current Status
+
+CarbonNAS is an ongoing, self-directed research project. The current prototype includes a configurable CNN search space, candidate evaluation, preliminary CIFAR-10 accuracy experiments, and Pareto-front analysis using test accuracy and FLOPs. Energy measurement, carbon estimation, and carbon-aware runtime selection are planned extensions.
 ---
 
 ## 1. Motivation
@@ -626,9 +629,6 @@ The results will be reported even if some hypotheses are not supported.
 
 The project should be reproducible by another researcher.
 
-* preliminary NAS evaluation results (`results/nas_accuracy_results.csv`)
-* Pareto-front results and visualization (`results/pareto_front.csv` and `results/figures/pareto_accuracy_vs_flops.png`)
-* 
 The repository will therefore include:
 
 * environment requirements
@@ -640,6 +640,8 @@ The repository will therefore include:
 * saved experiment results
 * plotting scripts
 * clear instructions for reproducing experiments
+* preliminary NAS evaluation results (`results/nas_accuracy_results.csv`)
+* Pareto-front results and visualization (`results/pareto_front.csv` and `results/figures/pareto_accuracy_vs_flops.png`)
 
 Where hardware-specific measurements are used, the exact hardware and software environment will be documented.
 
@@ -713,7 +715,7 @@ carbon-aware-nas/
 * Measure accuracy and latency
 * Save all results automatically
 
-**Deliverable:** working baseline experiments.
+**Current status:** Initial Pareto analysis completed for test accuracy and FLOPs. Extension to latency, energy, and carbon objectives remains future work.
 
 ---
 
