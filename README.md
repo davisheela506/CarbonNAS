@@ -626,6 +626,9 @@ The results will be reported even if some hypotheses are not supported.
 
 The project should be reproducible by another researcher.
 
+* preliminary NAS evaluation results (`results/nas_accuracy_results.csv`)
+* Pareto-front results and visualization (`results/pareto_front.csv` and `results/figures/pareto_accuracy_vs_flops.png`)
+* 
 The repository will therefore include:
 
 * environment requirements
