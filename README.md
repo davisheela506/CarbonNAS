@@ -472,6 +472,26 @@ Accuracy
 The Pareto-optimal models will be highlighted.
 
 ---
+### Preliminary Results
+
+The initial Pareto analysis was conducted using eight CNN architectures evaluated on a subset of CIFAR-10. Each candidate was trained for two epochs using 10,000 training images and evaluated on 5,000 test images.
+
+The analysis identified three Pareto-optimal candidates when maximizing test accuracy and minimizing FLOPs.
+
+| Candidate | Test Accuracy | Parameters | FLOPs | CPU Latency |
+|---|---:|---:|---:|---:|
+| 7 | 46.54% | 156,074 | 2.93M | 1.3149 ms |
+| 5 | 47.92% | 197,802 | 7.91M | 1.2347 ms |
+| 4 | 50.52% | 579,402 | 16.09M | 1.0489 ms |
+
+Candidate 7 offers the lowest computational cost, while Candidate 4 achieves the highest test accuracy among these Pareto-optimal candidates. Candidate 5 provides an intermediate trade-off.
+
+![CarbonNAS Pareto front: test accuracy versus FLOPs](results/figures/pareto_accuracy_vs_flops.png)
+
+*Figure: Test accuracy versus FLOPs for the evaluated architectures. Star markers identify the Pareto-optimal candidates.*
+
+**Limitations:** These results are preliminary because each candidate was trained for only two epochs. Latency measurements were collected on a CPU and may vary with system load and measurement conditions. Further experiments are needed before drawing conclusions about final model performance.
+
 
 # 13. Runtime Carbon-Aware Selection
 
