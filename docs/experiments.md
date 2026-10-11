@@ -69,7 +69,7 @@ The current three-objective Pareto analysis considers test accuracy, FLOPs, and 
 
 Candidate 3 has the lowest computational cost and latency among these Pareto-optimal candidates. Candidate 8 achieves the highest measured accuracy, but with higher computational cost and latency. Candidate 1 represents an intermediate trade-off.
 
-![CarbonNAS three-objective Pareto analysis](results/figures/pareto_accuracy_flops_latency.png)
+![CarbonNAS three-objective Pareto analysis](../results/figures/pareto_accuracy_flops_latency.png)
 
 *Figure: Test accuracy versus FLOPs, with color representing median inference latency and stars identifying Pareto-optimal candidates.*
 
