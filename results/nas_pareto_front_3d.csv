@@ -1,0 +1,4 @@
+candidate,channels,kernel_size,use_pooling,parameters,flops,model_size_mb,latency_ms,latency_std_ms,latency_repeats,runs_per_repeat,device,accuracy_percent,training_epochs,train_samples,test_samples,batch_size,training_device
+3,"(16, 32)",3,True,268650,1885440,1.0248,0.5113,0.1305,7,100,cpu,49.64,2,10000,5000,128,cpu
+1,"(16, 32)",3,False,4200810,9356544,16.0248,1.3513,0.0623,7,100,cpu,52.22,2,10000,5000,128,cpu
+8,"(16, 32, 64)",3,False,8413610,32425216,32.0954,2.8558,0.0346,7,100,cpu,53.18,2,10000,5000,128,cpu
