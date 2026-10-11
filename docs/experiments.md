@@ -125,5 +125,4 @@ The first command trains and evaluates the sampled candidates. The second calcul
 The required environment and dependencies must be installed before running the experiments. The scripts may overwrite their corresponding result files.
 
 ## Documentation
-
 See [Experimental Setup and Results](docs/experiments.md) for the experimental methodology, candidate comparisons, latency benchmarks, and Pareto analysis.
