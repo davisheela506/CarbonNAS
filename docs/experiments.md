@@ -79,7 +79,7 @@ For the detailed methodology, all candidate results, and reproduction instructio
 
 ## 5. Pareto Visualization
 
-![CarbonNAS three-objective Pareto analysis](../results/figures/pareto_accuracy_flops_latency.png)
+![CarbonNAS three-objective Pareto analysis](../results/figures/pareto_accuracy_vs_flops.png)
 
 The figure plots test accuracy against FLOPs, with color representing median inference latency. Star markers identify the Pareto-optimal candidates.
 
